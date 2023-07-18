@@ -73,7 +73,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 0,
-    paddingTop: 0,
   },
   item: {
     backgroundColor: '#f9c2ff',
