@@ -50,7 +50,7 @@ export default function Contact() {
   }, []);
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Contacts</Text>
+      <Text style={styles.title}>Contacts</Text>
       <FlatList
         data={contacts}
         renderItem={({ item }) => <Item item={item} />}
